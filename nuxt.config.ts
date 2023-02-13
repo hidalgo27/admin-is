@@ -23,5 +23,6 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    experimental: { externalVue: true }
 
 })
